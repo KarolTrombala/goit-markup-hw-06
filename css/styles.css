@@ -324,13 +324,37 @@ body {
   outline: none;
 }
 
+.modal-label {
+  margin-top: 10px;
+}
+
 .modal-form-regulations {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--support-color);
+
+  padding-top: 5px;
+  padding-left: 24px;
+  position: relative;
 }
+
+.modal-form-checkbox {
+  /* opacity: 0; */
+}
+
+.modal-form-checkbox-svg {
+  position: absolute;
+  left: 15px;
+  top: 5px;
+
+  fill: var(--white-color);
+  border: 1px solid var(--black-color);
+  border-radius: 2px;
+}
+
+
 
 .modal-form-regulations-text {
   color: var(--higlight-color);
@@ -348,7 +372,7 @@ body {
   border-style: none;
 
   padding: 10px 76px;
-  margin: 0 auto;
+  margin: 20px auto 0;
   display: block;
 
   transition-property: color, background-color, box-shadow;
