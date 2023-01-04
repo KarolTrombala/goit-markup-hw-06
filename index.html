@@ -475,7 +475,7 @@
         </button>
         <h2 class="modal-title">Zostaw swoje dane w formularzu poniżej</h2>
         <form class="modal-form">
-          <div class="modal-form-item">
+          <div>
             <label class="modal-form-label">
               Imie
               <input
@@ -489,7 +489,7 @@
               </svg>
             </label>
           </div>
-          <div class="modal-form-item">
+          <div>
             <label class="modal-form-label">
               Telefon
               <input
@@ -503,7 +503,7 @@
               </svg>
             </label>
           </div>
-          <div class="modal-form-item">
+          <div>
             <label class="modal-form-label">
               E-mail
               <input
@@ -527,24 +527,25 @@
               ></textarea>
             </label>
           </div>
-          <div>
+          <div class="modal-form-item">
             <label class="modal-form-regulations">
               <input
                 type="checkbox"
                 name="checkbox"
                 value="regulations"
-                class="modal-form-checkbox"
                 required
               />
               <svg width="16" height="15" class="modal-form-checkbox-svg">
                 <use href="./images/icons.svg#icon-icon-check"></use>
               </svg>
-              Oświadczam iż akceptuję
-              <a class="modal-form-regulations-link" href="#">Regulamin</a>
-              i
-              <a class="modal-form-regulations-link" href="#"
-                >Politykę Prywatności.</a
-              >
+              <span class="modal-form-regulations-text">
+                Oświadczam iż akceptuję
+                <a class="modal-form-regulations-link" href="#">Regulamin</a>
+                i
+                <a class="modal-form-regulations-link" href="#"
+                  >Politykę Prywatności.</a
+                >
+              </span>
             </label>
           </div>
           <div>

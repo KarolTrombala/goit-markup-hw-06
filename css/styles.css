@@ -327,6 +327,10 @@ body {
   outline: none;
 }
 
+.modal-form-item {
+  margin-top: 10px;
+}
+
 .modal-form-regulations {
   font-weight: 400;
   font-size: 14px;
@@ -335,23 +339,30 @@ body {
   color: var(--support-color);
 
   position: relative;
-  margin-top: 10px;
+}
+
+.modal-form-regulations-text {
+  padding-left: 39px;
 }
 
 .modal-form-regulations input[type="checkbox"] {
   background-color: var(--white-color);
   appearance: none;
   width: 16px;
-  height: 14px;
+  height: 15px;
   border: 2px solid var(--black-color);
   border-radius: 2px;
-  margin-right: 8px;
+
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
 }
 
 .modal-form-checkbox-svg {
   position: absolute;
-  top: 6px;
-  left: 0;
+  top: 50%;
+  left: 15px;
   transform: translateY(-50%);
   opacity: 0;
 }
