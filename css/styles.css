@@ -325,9 +325,13 @@ body {
 }
 
 .modal-form-regulations {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--support-color);
+
   position: relative;
-  display: flex;
-  align-items: center;
   margin-top: 10px;
 }
 
@@ -343,7 +347,7 @@ margin-right: 8px;
 
 .modal-form-checkbox-svg {
 position: absolute;
-top: 50%;
+top: 6px;
 left: 0;
 transform: translateY(-50%);
 opacity: 0;
@@ -353,7 +357,7 @@ opacity: 0;
 opacity: 1;
 }
 
-.modal-form-regulations-text {
+.modal-form-regulations-link {
   color: var(--higlight-color);
 }
 
@@ -786,6 +790,8 @@ opacity: 1;
   border: 1px solid var(--email-input-border);
   filter: drop-shadow(0px 4px 4px var(--box-shadow-color));
   border-radius: 4px;
+  color: var(--white-color);
+  outline: none;
 
   min-width: 358px;
   padding: 14px 0 14px 15px;
